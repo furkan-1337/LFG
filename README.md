@@ -1,4 +1,4 @@
-# LFG - DirectX 11 Frame Generation
+# Lufzy's Frame Generation
 
 **LFG** (Lufzy's Frame Generation) is an experimental Frame Generation pipeline designed for DirectX 11 applications. It intercepts the game's rendering pipeline to inject intermediate frames generated using Optical Flow and Frame Interpolation techniques, significantly improving perceived smoothness and framerates.
 
