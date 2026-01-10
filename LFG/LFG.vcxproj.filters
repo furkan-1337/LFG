@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Dependencies\MinHook\src\hde\hde32.h">
+      <Filter>Dependencies\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\MinHook\src\hde\hde64.h">
+      <Filter>Dependencies\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\MinHook\src\hde\pstdint.h">
+      <Filter>Dependencies\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\MinHook\src\hde\table32.h">
+      <Filter>Dependencies\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\MinHook\src\hde\table64.h">
+      <Filter>Dependencies\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\MinHook\src\buffer.h">
+      <Filter>Dependencies\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\MinHook\src\trampoline.h">
+      <Filter>Dependencies\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\MinHook\MinHook.h">
+      <Filter>Dependencies\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\backends\imgui_impl_dx11.h">
+      <Filter>Dependencies\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\backends\imgui_impl_win32.h">
+      <Filter>Dependencies\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imconfig.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imgui.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imgui_internal.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imstb_rectpack.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imstb_textedit.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\ImGui\imstb_truetype.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\Engine\HookEngine.h">
+      <Filter>Hook\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\Present\Present.h">
+      <Filter>Hook\Present</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\Common.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline\Generation\FrameGeneration.h">
+      <Filter>Pipeline\Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook\ResizeBuffers\ResizeBuffers.h">
+      <Filter>Hook\ResizeBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\DebugOverlay.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Menu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline\Shaders\Shader.h">
+      <Filter>Pipeline\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline\Interpolation\FrameInterpolation.h">
+      <Filter>Pipeline\Interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline\OpticalFlow\OpticalFlow.h">
+      <Filter>Pipeline\OpticalFlow</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{33cdd2ba-7a94-4844-aa0a-817199533bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\ImGui">
+      <UniqueIdentifier>{6a2752bc-7a28-4c28-9495-d13374177e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\MinHook">
+      <UniqueIdentifier>{d95cd99e-31e7-4468-98c8-c4b829d711bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\ImGui\backends">
+      <UniqueIdentifier>{301d71db-cdd0-4d44-92b0-bfc249aabacd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\MinHook\src">
+      <UniqueIdentifier>{a46ab50b-229f-4266-bc8c-42a36d5d4dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\MinHook\src\hde">
+      <UniqueIdentifier>{89bdc811-8c9e-4a9f-9f5a-1d3c3ad8621e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{008113b2-cf85-4a40-9a42-2e22a0a9fa5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{d9f3a710-0edf-442d-aaab-64e912b66d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook\Engine">
+      <UniqueIdentifier>{440076bc-a591-481b-ae07-42a1788108dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{48036344-43f6-452b-8b24-f7b854dd6217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook\Present">
+      <UniqueIdentifier>{8b436aa8-c1e6-49f6-9a69-a9c9721f2701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{5e0ee105-7be9-4d74-8970-69c668b8bb23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline">
+      <UniqueIdentifier>{6ef6a480-9233-4322-8c11-2b13a8648516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline\Generation">
+      <UniqueIdentifier>{0ddd890e-adb1-4562-b330-4a523dd17cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline\Processing">
+      <UniqueIdentifier>{1a24608c-e100-433a-b1ab-e2e177efa0d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline\Shaders">
+      <UniqueIdentifier>{ec7e956c-5c20-4dc9-9ddf-42cc7fcd326a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline\Shaders\HLSL">
+      <UniqueIdentifier>{f5ece685-a00c-4620-8c12-de0e6818ba4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline\Interpolation">
+      <UniqueIdentifier>{68f99ec2-3096-4f2b-9c3c-84e662d5b6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook\ResizeBuffers">
+      <UniqueIdentifier>{38fdc22c-7d7f-4517-8ea8-3af0e088ae78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline\OpticalFlow">
+      <UniqueIdentifier>{35801fad-19ed-4603-8e8b-c9c619ec4d15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dependencies\MinHook\src\hde\hde32.c">
+      <Filter>Dependencies\MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\MinHook\src\hde\hde64.c">
+      <Filter>Dependencies\MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\MinHook\src\buffer.c">
+      <Filter>Dependencies\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\MinHook\src\hook.c">
+      <Filter>Dependencies\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\MinHook\src\trampoline.c">
+      <Filter>Dependencies\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>Dependencies\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Dependencies\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui_demo.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui_draw.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui_tables.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\ImGui\imgui_widgets.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectX.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\Engine\HookEngine.cpp">
+      <Filter>Hook\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\Debug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\Present\Present.cpp">
+      <Filter>Hook\Present</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="Pipeline\Generation\FrameGeneration.cpp">
+      <Filter>Pipeline\Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook\ResizeBuffers\ResizeBuffers.cpp">
+      <Filter>Hook\ResizeBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\DebugOverlay.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Menu.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipeline\Shaders\Shader.cpp">
+      <Filter>Pipeline\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipeline\Interpolation\FrameInterpolation.cpp">
+      <Filter>Pipeline\Interpolation</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipeline\OpticalFlow\OpticalFlow.cpp">
+      <Filter>Pipeline\OpticalFlow</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pipeline\Shaders\HLSL\CS_BlockMatching.hlsl">
+      <Filter>Pipeline\Shaders\HLSL</Filter>
+    </None>
+    <None Include="Pipeline\Shaders\HLSL\CS_DebugView.hlsl">
+      <Filter>Pipeline\Shaders\HLSL</Filter>
+    </None>
+    <None Include="Pipeline\Shaders\HLSL\CS_Downsample.hlsl">
+      <Filter>Pipeline\Shaders\HLSL</Filter>
+    </None>
+    <None Include="Pipeline\Shaders\HLSL\CS_HUDMask.hlsl">
+      <Filter>Pipeline\Shaders\HLSL</Filter>
+    </None>
+    <None Include="Pipeline\Shaders\HLSL\CS_Interpolate.hlsl">
+      <Filter>Pipeline\Shaders\HLSL</Filter>
+    </None>
+    <None Include="Pipeline\Shaders\HLSL\CS_MotionSmooth.hlsl">
+      <Filter>Pipeline\Shaders\HLSL</Filter>
+    </None>
+    <None Include="Pipeline\Shaders\HLSL\CS_Upsample.hlsl">
+      <Filter>Pipeline\Shaders\HLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
