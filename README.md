@@ -54,7 +54,7 @@ Advanced motion estimation using Compute Shaders:
 1.  Use any standard DLL Injector (e.g., Xenos, Extreme Injector).
 2.  Target a **64-bit DirectX 11** game process.
 3.  Inject `LFG.dll`.
-4.  Press **INSERT** (or your configured key) to open the overlay menu.
+4.  Press **INSERT** to open the overlay menu.
 
 ## 📝 Disclaimer
 
